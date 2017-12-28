@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/opentracing/opentracing-go"
-	"github.com/opentracing/opentracing-go/ext"
-	"github.com/opentracing/opentracing-go/mocktracer"
+	"github.com/frrist/opentracing-go"
+	"github.com/frrist/opentracing-go/ext"
+	"github.com/frrist/opentracing-go/mocktracer"
 )
 
 func TestPeerTags(t *testing.T) {

@@ -1,6 +1,6 @@
 package opentracing
 
-import "github.com/opentracing/opentracing-go/log"
+import "github.com/frrist/opentracing-go/log"
 
 // A NoopTracer is a trivial, minimum overhead implementation of Tracer
 // for which all operations are no-ops.

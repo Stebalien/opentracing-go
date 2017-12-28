@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/opentracing/opentracing-go/log"
+	"github.com/frrist/opentracing-go/log"
 )
 
 const testHTTPHeaderPrefix = "testprefix-"

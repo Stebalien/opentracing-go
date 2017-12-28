@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/opentracing/opentracing-go/log"
+	"github.com/frrist/opentracing-go/log"
 )
 
 // MockLogRecord represents data logged to a Span via Span.LogFields or

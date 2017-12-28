@@ -6,9 +6,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/opentracing/opentracing-go"
-	"github.com/opentracing/opentracing-go/ext"
-	"github.com/opentracing/opentracing-go/log"
+	"github.com/frrist/opentracing-go"
+	"github.com/frrist/opentracing-go/ext"
+	"github.com/frrist/opentracing-go/log"
 )
 
 // MockSpanContext is an opentracing.SpanContext implementation.

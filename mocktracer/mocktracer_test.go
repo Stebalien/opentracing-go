@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/opentracing/opentracing-go"
-	"github.com/opentracing/opentracing-go/ext"
-	"github.com/opentracing/opentracing-go/log"
+	"github.com/frrist/opentracing-go"
+	"github.com/frrist/opentracing-go/ext"
+	"github.com/frrist/opentracing-go/log"
 )
 
 func TestMockTracer_StartSpan(t *testing.T) {
